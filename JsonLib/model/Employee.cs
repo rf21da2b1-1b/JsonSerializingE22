@@ -8,7 +8,7 @@ namespace JsonLib.model
 {
     public class Employee
     {
-        public String Name { get; set; }
+        public String? Name { get; set; }
         public int Salary { get; set; }
         public int MonthsEmployed { get; set; }
         public List<String> JobAreas { get; set; }
